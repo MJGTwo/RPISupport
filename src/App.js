@@ -10,19 +10,29 @@ import HealthCenter from './components/healthCenter';
 import Handbook from './components/handbook';
 import Policies from './components/resLifePolicies';
 
+const RED = '#97040c';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img
-            src={logo}
-            alt="Rensselaer"
-            style={{ height: '90%', paddingRight: '80%' }}
-          />
-        </header>
+        <nav style={{ background: RED }}>
+          <div className="nav-wrapper">
+            <a
+              href="https://rpi.edu"
+              className="brand-logo"
+              style={{ height: '90%', left: '40%' }}
+            >
+              <img src={logo} alt="Rensselaer" style={{ height: '90%' }} />
+            </a>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li style={{ paddingRight: '10px' }}>Need Help? </li>
+              <li style={{ paddingRight: '20px' }}> Call 911</li>
+            </ul>
+          </div>
+        </nav>
         <div>
-          <p>Need Help? Here's some quick links to important information.</p>
           <div className="row">
             <div className="col s12 m6">
               <TitleIX />

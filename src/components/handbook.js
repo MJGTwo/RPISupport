@@ -2,7 +2,7 @@ import React from 'react';
 const RED = '#97040c';
 const Handbook = () => {
   return (
-    <div className="card" style={{ background: RED, paddingBottom: '40px' }}>
+    <div className="card" style={{ background: RED }}>
       <div className="card-content white-text">
         <span className="card-title">
           Rensselaer Handbook of Student Rights and Responsibilities (2014-2016)
@@ -22,6 +22,12 @@ const Handbook = () => {
           identity and the expression of that identity within the bounds of both
           the law and mutual respect for individual differences inherent to the
           Institute community.
+        </p>
+        <br />
+        <p>
+          Rules and regulations, as described in the current The Rensselaer
+          Handbook of Student Rights and Responsibilities, are further
+          conditions of occupancy for all residents in campus housing.
         </p>
       </div>
       <div className="card-action">
