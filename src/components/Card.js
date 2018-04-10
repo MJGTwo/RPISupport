@@ -11,7 +11,7 @@ const Card = ({ title, text, url }) => {
           return <p key={par}> {par}</p>;
         })}
       </div>
-      <div className="card-action">
+      <div className="card-action" style={{ background: 'white' }}>
         <a href={url} style={{ color: GREY, fontWeight: 'bold' }}>
           Click for website
         </a>
