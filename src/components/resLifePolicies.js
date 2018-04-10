@@ -1,5 +1,6 @@
 import React from 'react';
 const RED = '#97040c';
+const GREY = '#717271';
 const Policies = () => {
   return (
     <div className="card" style={{ background: RED, paddingBottom: '40px' }}>
@@ -13,7 +14,10 @@ const Policies = () => {
         </p>
       </div>
       <div className="card-action">
-        <a href="http://reslife.rpi.edu/update.do?catcenterkey=20">
+        <a
+          href="http://reslife.rpi.edu/update.do?catcenterkey=20"
+          style={{ color: GREY, fontWeight: 'bold' }}
+        >
           Click for website
         </a>
       </div>
