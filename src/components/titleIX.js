@@ -1,5 +1,6 @@
 import React from 'react';
 const RED = '#97040c';
+const GREY = '#717271';
 const TitleIX = () => {
   return (
     <div>
@@ -23,7 +24,12 @@ const TitleIX = () => {
           </p>
         </div>
         <div className="card-action">
-          <a href="https://sexualviolence.rpi.edu/">Click for website</a>
+          <a
+            href="https://sexualviolence.rpi.edu/"
+            style={{ color: GREY, fontWeight: 'bold' }}
+          >
+            Click for website
+          </a>
         </div>
       </div>
     </div>

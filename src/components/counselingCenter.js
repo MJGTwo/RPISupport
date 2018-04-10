@@ -1,5 +1,6 @@
 import React from 'react';
 const RED = '#97040c';
+const GREY = '#717271';
 const counselingCenter = () => {
   return (
     <div className="card" style={{ background: RED }}>
@@ -17,7 +18,12 @@ const counselingCenter = () => {
         </p>
       </div>
       <div className="card-action">
-        <a href="http://studenthealth.rpi.edu/counseling">Click for website</a>
+        <a
+          href="http://studenthealth.rpi.edu/counseling"
+          style={{ color: GREY, fontWeight: 'bold' }}
+        >
+          Click for website
+        </a>
       </div>
     </div>
   );
