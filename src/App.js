@@ -26,7 +26,7 @@ class App extends Component {
               <img src={logo} alt="Rensselaer" style={{ height: '90%' }} />
             </a>
 
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li style={{ paddingRight: '10px' }}>Need Help? </li>
               <li style={{ paddingRight: '20px' }}> Call 911</li>
             </ul>

@@ -1,17 +1,16 @@
 import React from 'react';
-const RED = '#97040c';
+import Card from './Card';
 const GREY = '#717271';
 const pubSafe = () => {
   return (
-    <div className="card" style={{ background: RED, paddingBottom: '20px' }}>
-      <div className="card-content white-text">
-        <span className="card-title">RPI Public Safety</span>
+    <Card
+      title={'RPI Public Safety'}
+      text={[
         <p>
           Communication, awareness, and prevention are essential for personal
           safety. At Rensselaer, we take a proactive approach to maintaining a
           safe and secure environment for all.
-        </p>
-        <br />
+        </p>,
         <p>
           The department also provides 24-hour per day, 365-day response to
           life-safety incidents, coordinates internal and external resources to
@@ -22,26 +21,20 @@ const pubSafe = () => {
           >
             management of critical incidents
           </a>
-          , and conducts{' '}
+          , and conducts
           <a
             href="http://www.rpi.edu/dept/public_safety/safety/personal.html"
             style={{ color: GREY }}
           >
-            {}awareness programs
+            {' '}
+            awareness programs
           </a>{' '}
           to proactively assist its community members in the maintenance of
           personal safety.
         </p>
-      </div>
-      <div className="card-action">
-        <a
-          href="http://www.rpi.edu/dept/public_safety/"
-          style={{ color: GREY, fontWeight: 'bold' }}
-        >
-          Click for website
-        </a>
-      </div>
-    </div>
+      ]}
+      url="http://www.rpi.edu/dept/public_safety/"
+    />
   );
 };
 
