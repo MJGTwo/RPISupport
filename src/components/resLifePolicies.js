@@ -1,27 +1,17 @@
 import React from 'react';
-const RED = '#97040c';
-const GREY = '#717271';
+import Card from './Card';
 const Policies = () => {
   return (
-    <div className="card" style={{ background: RED, paddingBottom: '40px' }}>
-      <div className="card-content white-text">
-        <span className="card-title">Student Living & Learning Policies</span>
-        <p>
-          It is Rensselaer's position that participation in community living and
-          responsibility are of vital importance in the overall scheme of
-          education. Therefore, students must assume the responsibilities
-          outlined here, as well as abide by all local, state, and federal laws.
-        </p>
-      </div>
-      <div className="card-action">
-        <a
-          href="http://reslife.rpi.edu/update.do?catcenterkey=20"
-          style={{ color: GREY, fontWeight: 'bold' }}
-        >
-          Click for website
-        </a>
-      </div>
-    </div>
+    <Card
+      title={'Student Living & Learning Policies'}
+      text={[
+        `It is Rensselaer's position that participation in community living and
+        responsibility are of vital importance in the overall scheme of
+        education. Therefore, students must assume the responsibilities
+        outlined here, as well as abide by all local, state, and federal laws.`
+      ]}
+      url="http://reslife.rpi.edu/update.do?catcenterkey=20"
+    />
   );
 };
 
