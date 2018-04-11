@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
+import gh from './logo-github.svg';
 import './App.css';
 
 import TitleIX from './components/titleIX';
@@ -63,6 +64,9 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <a href="https://github.com/mjgtwo/rpisupport">
+          <img src={gh} alt="github" />
+        </a>
       </div>
     );
   }
