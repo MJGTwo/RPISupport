@@ -1,5 +1,4 @@
 import React from 'react';
-import fileDownload from 'js-file-download';
 const RED = '#97040c';
 const GREY = '#717271';
 const Card = ({ title, text, url }) => {
@@ -13,14 +12,15 @@ const Card = ({ title, text, url }) => {
       </div>
       <div className="card-action" style={{ background: 'white' }}>
         {url.map(path => {
-          if (path.includes('.pdf')) {
+          if (typeof path.name !== 'undefined') {
             return (
               <a
-                href={path}
                 target="_blank"
                 style={{ color: GREY, fontWeight: 'bold' }}
+                download={path.name}
+                href={path.file}
               >
-                Click to download
+                {path.name}
               </a>
             );
           } else {
