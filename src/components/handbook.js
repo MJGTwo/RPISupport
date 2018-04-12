@@ -22,7 +22,7 @@ const Handbook = () => {
         Handbook of Student Rights and Responsibilities, are further
         conditions of occupancy for all residents in campus housing.`
       ]}
-      url="http://rpi.edu/dept/doso/resources/judicial/docs/2014-2016RPIHandbookofStudentRightsandResponsibilitiesAUGUST2014.pdf"
+      url={['../resources/handbook17.pdf']}
     />
   );
 };

@@ -14,7 +14,7 @@ const counselingCenter = () => {
       weekends. Call Public Safety at 518-276-6611 and ask to speak with the
       on-call counselor.`
       ]}
-      url="http://studenthealth.rpi.edu/counseling"
+      url={['http://studenthealth.rpi.edu/counseling']}
     />
   );
 };

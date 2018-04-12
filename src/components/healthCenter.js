@@ -23,7 +23,7 @@ const healthCenter = () => {
           <li>Suicide Prevention: 800-273-8255</li>
         </ul>
       ]}
-      url="http://studenthealth.rpi.edu/"
+      url={['http://studenthealth.rpi.edu/']}
     />
   );
 };
