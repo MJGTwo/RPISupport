@@ -33,7 +33,7 @@ const pubSafe = () => {
           personal safety.
         </p>
       ]}
-      url="http://www.rpi.edu/dept/public_safety/"
+      url={['http://www.rpi.edu/dept/public_safety/']}
     />
   );
 };

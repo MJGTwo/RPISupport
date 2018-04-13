@@ -10,7 +10,7 @@ const Policies = () => {
         education. Therefore, students must assume the responsibilities
         outlined here, as well as abide by all local, state, and federal laws.`
       ]}
-      url="http://reslife.rpi.edu/update.do?catcenterkey=20"
+      url={['http://reslife.rpi.edu/update.do?catcenterkey=20']}
     />
   );
 };

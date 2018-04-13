@@ -1,28 +1,28 @@
 import React from 'react';
 import Card from './Card';
+import doc1 from '../resources/handbook17.pdf';
+import doc2 from '../resources/handbook14-16.pdf';
 const Handbook = () => {
   return (
     <Card
       title={
-        'Rensselaer Handbook of Student Rights and Responsibilities (2014-2016)'
+        'Rensselaer Handbook of Student Rights and Responsibilities (2017-)'
       }
       text={[
-        `Rensselaer admits qualified students without regard to race, color,
-        religion, sex, pregnancy, sexual orientation, gender identity, gender
-        expression, age, marital status, national origin, citizenship status,
-        disability, military status, veteran status, prior criminal
-        convictions, genetic information, genetic predisposition, domestic
-        violence victim, or any other basis prohibited by law.`,
-        `Rensselaer expects students and members of the campus community to
-        honor and uphold individuals’ right to their safety in their personal
-        identity and the expression of that identity within the bounds of both
-        the law and mutual respect for individual differences inherent to the
-        Institute community.`,
-        `Rules and regulations, as described in the current The Rensselaer
-        Handbook of Student Rights and Responsibilities, are further
-        conditions of occupancy for all residents in campus housing.`
+        `The Rensselaer Handbook of Student Rights and Responsibilities (Handbook) is a reflection of the values,
+beliefs and expectations we have as a community of scholars. The Handbook lays out both the rights and the
+responsibilities of students at Rensselaer to help ensure mutual respect, integrity, and an environment where
+all students can effectively pursue their educational goals.`,
+        `
+All Rensselaer students are expected to comply with the rules and regulations set forth in the Handbook, as
+well as with the requirements set forth in other Institute policies and rules. Compliance with the requirements
+of this Handbook are also conditions of occupancy for all residents in campus housing – in addition to the
+contractual terms set forth in room and board contracts.`
       ]}
-      url="http://rpi.edu/dept/doso/resources/judicial/docs/2014-2016RPIHandbookofStudentRightsandResponsibilitiesAUGUST2014.pdf"
+      url={[
+        { name: 'handbook17.pdf', file: doc1 },
+        { name: 'handbook14-16.pdf', file: doc2 }
+      ]}
     />
   );
 };

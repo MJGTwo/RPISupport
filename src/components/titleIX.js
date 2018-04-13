@@ -16,7 +16,7 @@ activity receiving federal financial assistance.`,
         limits an individual's ability to participate in or benefit from the
         Institute's programs or activities.`
       ]}
-      url="https://sexualviolence.rpi.edu/"
+      url={['https://sexualviolence.rpi.edu/']}
     />
   );
 };

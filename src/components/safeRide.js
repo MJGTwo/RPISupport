@@ -11,7 +11,7 @@ const safeRide = () => {
         a.m. with the exception of holidays, academic breaks, and inclement
         weather.`
       ]}
-      url="https://info.rpi.edu/safe-ride"
+      url={['https://info.rpi.edu/safe-ride']}
     />
   );
 };
