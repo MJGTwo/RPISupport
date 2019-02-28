@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-const GREY = '#717271';
+const LIGHTGREY = '#a0a3a0';
 const pubSafe = () => {
   return (
     <Card
@@ -17,16 +17,15 @@ const pubSafe = () => {
           assist the{' '}
           <a
             href="http://www.rpi.edu/dept/public_safety/emergency/index.html"
-            style={{ color: GREY }}
+            style={{ color: LIGHTGREY, textDecoration: 'underline' }}
           >
             management of critical incidents
           </a>
-          , and conducts
+          , and conducts{' '}
           <a
             href="http://www.rpi.edu/dept/public_safety/safety/personal.html"
-            style={{ color: GREY }}
+            style={{ color: LIGHTGREY, textDecoration: 'underline' }}
           >
-            {' '}
             awareness programs
           </a>{' '}
           to proactively assist its community members in the maintenance of
